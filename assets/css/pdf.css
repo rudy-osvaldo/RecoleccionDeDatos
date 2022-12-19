@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pdf-titulo{
+    padding: 10px 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.pdf-contenedor .pdf-question {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #3868F4;
+    margin-top: 60px;
+}
+
+.pdf-contenedor .pdf-information{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pdf-contenedor .pdf-information tr:nth-child(even){
+    background-color: #e2e2e2;
+}
+
+.pdf-contenedor .pdf-information td,
+.pdf-contenedor .pdf-information th{
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,868 @@
+[
+    {
+        "title": "Ubicacion geografica de la vivienda",
+        "questions": [
+            {
+                "page": 1,
+                "index": 0,
+                "title":"",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Departamento", "type": "select", "value": ["Cochabamba", "Oruro", "La Paz", "Santa Cruz", "Beni", "Pando", "Potosi", "Chuquisaca", "Tarija"]},
+                    {"label": "Provincia", "type": "text"},
+                    {"label": "Localidad", "type": "text"},
+                    {"label": "Nombre de calle/ruta/camino", "type": "text"},
+                    {"label": "Puerta Nro./Km.", "type": "number"},
+                    {"label": "Piso Nro.","type": "number"}
+                ]
+            }
+        ]
+    },
+
+
+    {
+        "title": "Carateristicas del hogar y de la vivienda",
+        "questions": [
+            {
+                "page": 1,
+                "index": 1,
+                "title":"Marque por observacion el tipo de vivienda",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Casa", "type": "radio"},
+                    {"label": "Rancho", "type": "radio"},
+                    {"label": "Casilla", "type": "radio"},
+                    {"label": "Departamento", "type": "radio"},
+                    {"label": "Pieza ocupada en inquilinato, hotel familiar o pension", "type": "radio"},
+                    {"label": "Local no construido para habitacion ocupado", "type": "radio"},
+                    {"label": "Vivienda movil ocupada(Casa rondante, barco, carpa u otra)", "type": "radio"},
+                    {"label": "Personas viviendo en la calle", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 2,
+                "index": 2,
+                "title":"Marque si en la vivienda hay o no personas presentes",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Hay Personas Presentes", "type": "radio"},
+                    {"label": "No hay personas presentes", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 3,
+                "index": 3,
+                "title":"¿Cuantas personas viven la mayor parte del tiempo en esta vivienda?",
+                "note-head":"Incluya bebes, niños, adolescentes y personas mayores.",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Ninguna", "type": "radio"},
+                    {"label": "Una sola", "type": "radio"},
+                    {"label": "Dos o mas", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 4,
+                "index": 4,
+                "title":"Marque el motivo por cual no realizo la entrevista",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "La vivienda se usa para vacaiones, fin de semana, cmo segunda residencia u otro uso personal", "type": "radio"},
+                    {"label": "La vivienda se usa como oficina, consultorio o comercio", "type": "radio"},
+                    {"label": "La vivienda esta en alquiler o venta", "type": "radio"},
+                    {"label": "La vivienda esta en construccion", "type": "radio"},
+                    {"label": "Habitualmente viven personas, pero no se encuentran presentes", "type": "radio"},
+                    {"label": "Otra situaciona", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 5,
+                "index": 5,
+                "title":"¿Todas esas personas tienen gastos en comun para la alimentacion?",
+                "note-head":"Las personas tiene gatos en comun para la alimentacion cuando porvienen de un mismo presupuesto, aunque no todos aporten con ingresos.",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Si", "type": "radio"},
+                    {"label": "No", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 6,
+                "index": 6,
+                "title":"¿Cuantas personas tienen gastos separados para la alimentacion?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Gastos", "type": "number"}
+                ]
+            },
+
+            {
+                "page": 7,
+                "index": 7,
+                "title":"¿Cuales son los nombres de las personas de este hogar que viven la mayor parte del tiempo en esta vivienda?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Nombres", "type": "textarea"}
+                ]
+            },
+
+            {
+                "page": 8,
+                "index": 8,
+                "title":"En este hogar ¿Hay alguna persona que tenga difucultad o limitacion para...",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list-option",
+                "options": [
+                    {"label": "Caminar o subir escaleras?", "type": "radio-s-n"},
+                    {"label": "Recordar o concentrarse? Por ejemplo, recordar la direccion de su casa", "type": "radio-s-n"},
+                    {"label": "Comunicarse? Por ejemplo, entender o ser entendida por otras personas", "type": "radio-s-n"},
+                    {"label": "Oir,aun con el uso de audifonos?", "type": "radio-s-n"},
+                    {"label": "Ver, aun con el ujso de anteojos? Por ejemplo, ver la letra impresa a diario", "type": "radio-s-n"},
+                    {"label": "Comer, bañarse o vestirse sol@?", "type": "radio-s-n"}
+                ]
+            },
+
+            {
+                "page": 9,
+                "index": 9,
+                "title":"El material predominante de los pisos es...",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Ceramica, mosaico, baldosa, alfombra, madera, flotante.", "type": "radio"},
+                    {"label": "Vinilico, microcemento, cemenento alisaso o marmol.", "type": "radio"},
+                    {"label": "Carpeta, contrapiso o ladrillo fijo.", "type": "radio"},
+                    {"label": "Tierra o ladrillo suelto.", "type": "radio"},
+                    {"label": "Otro material.", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 9,
+                "index": 10,
+                "title":"El material predominante de la cubierta exterior del techo es...",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Baldosa, membrana , pintura asfaltica, pizarra o teja.", "type": "radio"},
+                    {"label": "Losa o carpeta a la vista(sin cubierta).", "type": "radio"},
+                    {"label": "Chapa de metal.", "type": "radio"},
+                    {"label": "Chapa de carton, cania, palma,tabla con barro, paja con barro o paja sola.", "type": "radio"},
+                    {"label": "Otro material.", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 9,
+                "index": 11,
+                "title":"¿El techo tiene revestimiento interior o cielorraso?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Si", "type": "radio"},
+                    {"label": "No", "type": "radio"},
+                    {"label": "Ignorado", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 9,
+                "index": 12,
+                "title":"Tiene agua:",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Por cañería dentro de la vivienda.", "type": "radio"},
+                    {"label": "Fuera de la vivienda, pero dentro del terreno.", "type": "radio"},
+                    {"label": "Fuera del terreno.", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 9,
+                "index": 13,
+                "title":"El agua que usa para beber y cocinar proviene de:",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Red publica (agua corriente).", "type": "radio"},
+                    {"label": "Perforacion con bomba o motor.", "type": "radio"},
+                    {"label": "IPerforacion con bomba manual.", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 10,
+                "index": 14,
+                "title":"Este hogar tiene un baño o letrina:",
+                "note-head":"Si tiene un baño dentro de la vivienda y uno fuera de la vivienda, marque la opcion dentro de la vivienda.",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Dentro de la vivienda.", "type": "radio"},
+                    {"label": "Fuera de la vivienda pero dentro del terreno.", "type": "radio"},
+                    {"label": "No tiene", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 10,
+                "index": 15,
+                "title":"¿Cuantos baños tiene en este hogar?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Uno", "type": "radio"},
+                    {"label": "Dos", "type": "radio"},
+                    {"label": "Tres o mas.", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 10,
+                "index": 16,
+                "title":"El baño tiene:",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Inodoro con boton, mochila, o cadena(arrastre de agua).", "type": "radio"},
+                    {"label": "Inodoro sin boton ni cadena(a balde)", "type": "radio"},
+                    {"label": "Pozo", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 10,
+                "index": 17,
+                "title":"El desague del inodoro es:",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "A red publica(cloaca).", "type": "radio"},
+                    {"label": "A carama septica y pozo ciego.", "type": "radio"},
+                    {"label": "solo a pozo ciego.", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 10,
+                "index": 18,
+                "title":"Para cocinar utiliza principalmente:",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Electricidad.", "type": "radio"},
+                    {"label": "Gas de red.", "type": "radio"},
+                    {"label": "Gas en tubo o a granel(zeppelin).", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 10,
+                "index": 19,
+                "title":"En este hogar ¿Cuantos ambientes, habitaciones o piezas tienen en total, sin contar baños ni cocina?",
+                "note-head":"Incluya dormitorios, comedor, living, entrepisos, escritorios, habitaciones de servicio, etc.",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Cantidad total de ambientes, habitaciones o piezas", "type": "number"}
+                ]
+            },
+
+            {
+                "page": 10,
+                "index": 20,
+                "title":"Y de esos ¿Cuantos tiene para dormir, independientemente de si los usa para tal fin?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Cantidad de hambientes, habitaciones o piezas que tiene para dormir", "type": "number"}
+                ]
+            },
+
+            {
+                "page": 11,
+                "index": 21,
+                "title":"La vivienda es:",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Propia", "type": "radio"},
+                    {"label": "Alquilada", "type": "radio"},
+                    {"label": "Cedida por trabajo", "type": "radio"},
+                    {"label": "Prestada", "type": "radio"},
+                    {"label": "Otra situacion", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 12,
+                "index": 22,
+                "title":"Esta vivienda tiene:",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Escritura", "type": "radio"},
+                    {"label": "Boleto de compra-venta", "type": "radio"},
+                    {"label": "Otra documentacion", "type": "radio"},
+                    {"label": "No tiene documentacion", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 12,
+                "index": 23,
+                "title":"Este hogar tiene:",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list-option",
+                "options": [
+                    {"label": "Internet en la vivienda", "type": "radio-s-n"},
+                    {"label": "Celular con internet", "type": "radio-s-n"},
+                    {"label": "Computadora, tablet , etc.", "type": "radio-s-n"}
+                ]
+            }
+
+        ]
+    },
+
+
+    {
+        "title": "Carateristicas individuales de la poblacion",
+        "questions": [
+            {
+                "page": 1,
+                "index": 1,
+                "title":"Ingresar su nombre completo",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Nombre", "type": "text"}
+                ]
+            },
+
+            {
+                "page": 1,
+                "index": 2,
+                "title":"¿Cual es el sexo registrado al nacer?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Mujer / Femenino", "type": "radio"},
+                    {"label": "Varon / Masculino", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 1,
+                "index": 3,
+                "title":"De acuerdo a la identidad de genero se considera:",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Mujer", "type": "radio"},
+                    {"label": "Mujer Trans / Travesti", "type": "radio"},
+                    {"label": "Varon", "type": "radio"},
+                    {"label": "Varon Trans / Masculinidad trans.", "type": "radio"},
+                    {"label": "No binario", "type": "radio"},
+                    {"label": "Otra identidad / NInguna de las anteriores", "type": "radio"},
+                    {"label": "Prefiero no contestar", "type": "radio"},
+                    {"label": "Ignorado", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 1,
+                "index": 4,
+                "title":"¿Cuantos años tiene?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Si todavia no cumplio el año anote 0", "type": "number"}
+                ]
+            },
+
+            {
+                "page": 1,
+                "index": 5,
+                "title":"¿Cual es la fecha de nacimiento?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "", "type": "date"}
+                ]
+            },
+
+            {
+                "page": 1,
+                "index": 6,
+                "title":"¿Cursa o asiste a algun estabecimiento educativo?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Si", "type": "radio"},
+                    {"label": "No", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 1,
+                "index": 7,
+                "title":"¿Que nivel educativo esta cursando?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Jardin maternal, guarderia, centro de cuidado, salas de 0 a 3.", "type": "radio"},
+                    {"label": "Primario", "type": "radio"},
+                    {"label": "Secundario", "type": "radio"},
+                    {"label": "Terciario no universitario", "type": "radio"},
+                    {"label": "Universitario de grado", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 2,
+                "index": 8,
+                "title":"¿Que grado o año esta cursando?",
+                "note-head":"Si esta realizando el curso de ingreso o de nivelacion universitario marque.",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Grado o año", "type": "number"}
+                ]
+            },
+
+            {
+                "page": 3,
+                "index": 9,
+                "title":"Alguna vez ¿Curso o asistio a algun establecimiento educativo (guarderia, jardin, escuela, universidad)?",
+                "note-head":"Refiere a la educacion normal(presencial, a distancia o virtual).",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Si", "type": "radio"},
+                    {"label": "No", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 4,
+                "index": 10,
+                "title":"¿Cual fue el nivel mas alto que curso?",
+                "note-head":"Marque solo el ultimo nivel que curso",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Jardin maternal, guarderia, centro de cuidado, salas de 0 a 5, jardin de infantes o preescolar.", "type": "radio"},
+                    {"label": "Primario", "type": "radio"},
+                    {"label": "EGB", "type": "radio"},
+                    {"label": "Secundario", "type": "radio"},
+                    {"label": "Polimodal", "type": "radio"},
+                    {"label": "Terciario no universitario", "type": "radio"},
+                    {"label": "Universitario de grado", "type": "radio"},
+                    {"label": "Post grado(Especializacion, maestria o doctorado)", "type": "radio"},
+                    {"label": "Ignorado", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 5,
+                "index": 11,
+                "title":"¿Completo ese nivel?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Si", "type": "radio"},
+                    {"label": "No", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 6,
+                "index": 12,
+                "title":"¿Cuantos grados o años aprobo en ese nivel?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Cantidad de grados o años", "type": "number"}
+                ]
+            },
+
+            {
+                "page": 6,
+                "index": 13,
+                "title":"Nacio en:",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Este departamento", "type": "radio"},
+                    {"label": "Otro departamento", "type": "radio"},
+                    {"label": "Otro pais", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 7,
+                "index": 14,
+                "title":"¿En que departamento nacio?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Cochabamba", "type": "radio"},
+                    {"label": "La Paz", "type": "radio"},
+                    {"label": "Oruro", "type": "radio"},
+                    {"label": "Potosi", "type": "radio"},
+                    {"label": "Tarija", "type": "radio"},
+                    {"label": "Pando", "type": "radio"},
+                    {"label": "Beni", "type": "radio"},
+                    {"label": "Santa Cruz", "type": "radio"},
+                    {"label": "Chuquisaca", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 8,
+                "index": 15,
+                "title":"¿En que pais nacio?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Argentina", "type": "radio"},
+                    {"label": "Colombia", "type": "radio"},
+                    {"label": "Uruguay", "type": "radio"},
+                    {"label": "Brasil", "type": "radio"},
+                    {"label": "Paraguay", "type": "radio"},
+                    {"label": "Venezuela", "type": "radio"},
+                    {"label": "Chile", "type": "radio"},
+                    {"label": "Peru", "type": "radio"},
+                    {"label": "Otro pais", "type": "radio-text"}
+                ]
+            },
+
+            {
+                "page": 9,
+                "index": 16,
+                "title":"¿En que año llego a Bolivia?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "", "type": "number"}
+                ]
+            },
+
+            {
+                "page": 9,
+                "index": 17,
+                "title":"Hace 5 años vivia en:",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Esta localidad o paraje", "type": "radio"},
+                    {"label": "Otra localidad o parajede este departamento", "type": "radio"},
+                    {"label": "Otro departamento de Bolivia", "type": "radio"},
+                    {"label": "Otro pais", "type": "radio"},
+                    {"label": "No habia nacido", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 10,
+                "index": 18,
+                "title":"¿En que departamento vivio hace 5 años?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Cochabamba", "type": "radio"},
+                    {"label": "La Paz", "type": "radio"},
+                    {"label": "Oruro", "type": "radio"},
+                    {"label": "Potosi", "type": "radio"},
+                    {"label": "Tarija", "type": "radio"},
+                    {"label": "Pando", "type": "radio"},
+                    {"label": "Beni", "type": "radio"},
+                    {"label": "Santa Cruz", "type": "radio"},
+                    {"label": "Chuquisaca", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 11,
+                "index": 19,
+                "title":"Tiene cobertura de salud por:",
+                "note-head":"Si solo tiene cobertura de emergencias medicas, marque No tiene obra social, prepaga ni plan estatal de salud",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Obra social o prepago", "type": "radio"},
+                    {"label": "Programas o planes estatales de salud", "type": "radio"},
+                    {"label": "No tiene obra social, prepaga ni plan estatal de salud", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 11,
+                "index": 20,
+                "title":"¿Cobra pension o jubilacion?",
+                "note-head":"Plan estatal",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Si", "type": "radio"},
+                    {"label": "No", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 12,
+                "index": 21,
+                "title":"Cobra:",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Solo jubilacion", "type": "radio"},
+                    {"label": "Solo pension por fallecimiento", "type": "radio"},
+                    {"label": "Jubilacion y pension por fallecimiento", "type": "radio"},
+                    {"label": "Solo pension de otro tipo", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 12,
+                "index": 22,
+                "title":"¿Se reconoce indigena o descendiente de pueblos indigenas u originarios?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Si", "type": "radio"},
+                    {"label": "No", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 13,
+                "index": 23,
+                "title":"¿De que pueblo indigena u originario?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "", "type": "text"}
+                ]
+            },
+
+            {
+                "page": 13,
+                "index": 24,
+                "title":"¿Habla y/o entiende la lengua de ese pueblo indigena u originario?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Si", "type": "radio"},
+                    {"label": "No", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 13,
+                "index": 25,
+                "title":"¿Se reconoce afrodescendiente o tiene antepasados negros o africanos?",
+                "note-head":"",
+                "note-footer": "Si es menor de 14 años fin de la entrevista para esta.",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Si", "type": "radio"},
+                    {"label": "No", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 14,
+                "index": 26,
+                "title":"Durante la semana pasada ¿Trabajo por lo menos una hora, sin contar las tareas domesticas de su hogar?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Si", "type": "radio"},
+                    {"label": "No", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 15,
+                "index": 27,
+                "title":"Durante la semana pasada ¿Hizo alguna changa, fabrico algo para vender afuera? ¿Ayudo a un familiar o amigo en su chacra o negocio ?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Si", "type": "radio"},
+                    {"label": "No", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 16,
+                "index": 28,
+                "title":"En esta semana pasada ¿tenia trabajo tenia trabajo y no concurrio?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Si", "type": "radio"},
+                    {"label": "No", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 17,
+                "index": 29,
+                "title":"Durante las ultimas 4 semanas ¿Busco trabajo de alguna manera?",
+                "note-head":"Contesto avisos de diario, internet, parientes u otros",
+                "note-footer": "Si es mujer de 14 a 49 años pase a la 35.<br/>Si no, fin de la entrevista para esta persona.",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Si", "type": "radio"},
+                    {"label": "No", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 18,
+                "index": 30,
+                "title":"Ese trabajo lo hace como:",
+                "note-head":"Si tiene mas de un trabajo refiere al que lleve mas horas.",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Servicio domestico", "type": "radio"},
+                    {"label": "Empleado(a) u obrero(a)", "type": "radio"},
+                    {"label": "Cuenta propia", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 19,
+                "index": 31,
+                "title":"En ese trabajo ¿le descuentan para la jubilacion?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Si", "type": "radio"},
+                    {"label": "No", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 20,
+                "index": 32,
+                "title":"En ese trabajo ¿aporta por si mismo para la jubilacion?",
+                "note-head":"",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Si", "type": "radio"},
+                    {"label": "No", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 20,
+                "index": 33,
+                "title":"La actividad principal de la empresa, negocio, institucion en la que trabaja o del trabajo que realiza por su cuenta es:",
+                "note-head":"Refiere a la actividad del lugar donde trabaja la persona",
+                "note-footer": "",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Educacion o salud privada", "type": "radio"},
+                    {"label": "Adminitracion publica, educacion o salud publica", "type": "radio"},
+                    {"label": "Comercio", "type": "radio"},
+                    {"label": "Industria", "type": "radio"},
+                    {"label": "Agropecuaria, pesca o mineria", "type": "radio"},
+                    {"label": "Construccion", "type": "radio"},
+                    {"label": "Transporte o almacenamiento", "type": "radio"},
+                    {"label": "Hotel o restaurante", "type": "radio"},
+                    {"label": "Banco, financiera o aseguradora", "type": "radio"},
+                    {"label": "Empresa de electricidad, gas o agua", "type": "radio"},
+                    {"label": "Otros servicios personales, tecnicos o profesionales", "type": "radio"}
+                ]
+            },
+
+            {
+                "page": 21,
+                "index": 34,
+                "title":"¿Como describiria en detalle esa actividad principal de la empresa, negocio, institucion en la que trabaja o del trabajo que realiza por su cuenta?",
+                "note-head":"",
+                "note-footer": "Si es mujer de 14 a 49 años pase a la 35. Si no, fin de la entrevista para esta persona.",
+                "class": "questions-list",
+                "options": [
+                    {"label": "", "type": "textarea"}
+                ]
+            },
+
+            {
+                "page": 22,
+                "index": 35,
+                "title":"¿Cuantas hijas e hijos nacidos vivos tuvo en total?",
+                "note-head":"",
+                "note-footer": "Si responde uno o mas pase a 36<br/>Si responde ninguno, anote 0 y fin de la entrevista para esta persona",
+                "class": "questions-list",
+                "options": [
+                    {"label": "Cantidad de hijas e hijos nacidos vivos", "type": "number"}
+                ]
+            }
+
+
+        ]
+    }
+]

@@ -1,0 +1,89 @@
+[
+    {
+        "title": "Departamentos",
+        "entidad": "ubicacion",
+        "where": "departamento",
+        "values": ["Cochabamba", "Oruro", "La Paz", "Santa Cruz", "Beni", "Pando", "Potosi", "Chuquisaca", "Tarija"]
+    },
+
+    {
+        "title": "Tipos de viviendas",
+        "entidad": "section_1",
+        "where": "tipo_vivienda",
+        "values": ["Casa", "Rancho", "Casilla", "Departamento", "Pieza ocupada en inquilinato, hotel familiar o pension", "Local no construido para habitacion ocupado", "Vivienda movil ocupada(Casa rondante, barco, carpa u otra)", "Personas viviendo en la calle"]
+    },
+
+    {
+        "title": "Personas Presentes",
+        "entidad": "section_1",
+        "where": "personas_presentes",
+        "values": ["Hay Personas Presentes", "No hay personas presentes"]
+    },
+
+    {
+        "title": "Cantidad de personas",
+        "entidad": "section_1",
+        "where": "cantidad_personas",
+        "values": ["Ninguna", "Una sola", "Dos o mas"]
+    },
+
+    {
+        "title": "Personas que tienen gastos en comin para la alimentacion",
+        "entidad": "section_1",
+        "where": "gastos_alimentacion",
+        "values": ["Si", "No"]
+    },
+
+
+    {
+        "title": "Personas que tienen dificultad para caminar o subir",
+        "entidad": "section_2",
+        "where": "caminar_subir",
+        "values": ["SI-Caminar o subir escaleras?", "NO-Caminar o subir escaleras?"]
+    },
+    {
+        "title": "Personas que tienen dificultad para recordar",
+        "entidad": "section_2",
+        "where": "recordar",
+        "values": ["SI-Recordar o concentrarse? Por ejemplo, recordar la direccion de su casa", "NO-Recordar o concentrarse? Por ejemplo, recordar la direccion de su casa"]
+    },
+    {
+        "title": "Personas que tienen dificultad para comunicarse",
+        "entidad": "section_2",
+        "where": "comunicarse",
+        "values": ["SI-Comunicarse? Por ejemplo, entender o ser entendida por otras personas", "NO-Comunicarse? Por ejemplo, entender o ser entendida por otras personas"]
+    },
+    {
+        "title": "Personas que tienen dificultad para oir",
+        "entidad": "section_2",
+        "where": "oir",
+        "values": ["SI-Oir,aun con el uso de audifonos?", "NO-Oir,aun con el uso de audifonos?"]
+    },
+    {
+        "title": "Personas que tienen dificultad para ver",
+        "entidad": "section_2",
+        "where": "ver",
+        "values": ["SI-Ver, aun con el ujso de anteojos? Por ejemplo, ver la letra impresa a diario", "NO-Ver, aun con el ujso de anteojos? Por ejemplo, ver la letra impresa a diario"]
+    },
+    {
+        "title": "Personas que tienen dificultad para comer",
+        "entidad": "section_2",
+        "where": "comer",
+        "values": ["SI-Comer, bañarse o vestirse sol@?", "NO-Comer, bañarse o vestirse sol@?"]
+    },
+
+    
+
+    {
+        "title": "Material predominante del piso",
+        "entidad": "section_3",
+        "where": "material_piso",
+        "values": ["Ceramica, mosaico, baldosa, alfombra, madera, flotante.", "Vinilico, microcemento, cemenento alisaso o marmol.", "Carpeta, contrapiso o ladrillo fijo.","Tierra o ladrillo suelto.","Otro material."]
+    },
+    {
+        "title": "Material predominante de la cubierta exterior",
+        "entidad": "section_3",
+        "where": "material_exterior",
+        "values": ["Baldosa, membrana , pintura asfaltica, pizarra o teja.", "losa,carpeta","chapa de metal","chapa de carton, caña, palma","paja con barro o paja sola", "otro material"]
+    }
+]

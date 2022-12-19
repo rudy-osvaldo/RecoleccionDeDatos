@@ -1,0 +1,221 @@
+.card {
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.6);
+    backdrop-filter: blur(10px);
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.05);
+}
+
+
+.formulario{
+    padding: 40px 50px;
+    max-width: 500px;
+}
+
+
+.formulario .input-contenedor{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.formulario .input-contenedor input{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.formulario .input-contenedor select {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.formulario .input-contenedor input[type='text'],
+.formulario .input-contenedor input[type='password'],
+.formulario .input-contenedor input[type='email']{
+    border: solid 2px rgba(0,0,0,0.4);
+}
+
+.formulario .input-contenedor input[type='submit']{
+    cursor: pointer;
+    color: white;
+    border: none;
+    border: solid 2px rgba(0,0,0,0.2);
+    background-color: #3868F4;
+}
+
+
+.tabla-proyections{
+    width: 90%;
+    border-collapse: collapse;
+    max-width: 600px;
+    margin: auto;
+}
+
+.tabla-proyections tr:nth-child(even){
+    background-color: rgba(255,255,255,0.2);
+}
+
+.tabla-proyections tr{
+    background-color: rgba(255,255,255,0.6);
+}
+
+.tabla-proyections tr td{
+    font-weight: 200;
+    padding: 20px 20px;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: -10px;
+}
+
+.header-menu a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+
+
+
+.fomulario-questions {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 40px 30px;
+}
+
+
+
+.question-action {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.question-action .btn-next-previous{
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 40px;
+    background-color: #3868F4;
+    cursor: pointer;
+}
+
+.title-question {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.content-inputs {
+    padding: 20px;
+}
+
+.formulario-question{
+    width: 100%;
+    margin-top: 20px;
+    padding: 30px 40px;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.formulario-question .input-box{
+    margin-top: 10px;
+}
+
+.formulario-question .input-box input[type='text'],
+.formulario-question .input-box input[type='number'],
+.formulario-question .input-box select,
+.formulario-question .input-box textarea,
+.formulario-question .input-box input[type='date'],
+.formulario-question .input-box input[type='email']{
+    padding: 10px 20px;
+    border: solid 2px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+
+.formulario-question .input-box textarea{
+    width: 90%;
+    padding: 20px 30px;
+    min-width: 500px;
+    max-width: 100px;
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.formulario-question .input-box input[type='date'],
+.formulario-question .input-box select{
+    cursor: pointer;
+}
+
+
+.questions-graphics {
+    padding: 20px;
+    border-radius: 30px;
+    border: solid 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.content-chart-graph {
+    width: 90%;
+    padding: 40px;
+}
+
+.content-chart-graph canvas{
+    width: 100%;
+    max-width: 900px;
+    max-height: 500px;
+    margin: auto;
+}
+
+
+.questions-actions-estadistica {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.questions-actions-estadistica a{
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    background-color: #3868F4;
+}
+
+
+
+.table-usuarios {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+
+.table-usuarios tr {
+    background-color: white;
+}
+
+.table-usuarios tr:nth-child(even){
+    background-color: #f1f1f1;
+}
+
+.table-usuarios th,
+.table-usuarios td {
+    padding: 10px 20px;
+    text-align: center;
+}
